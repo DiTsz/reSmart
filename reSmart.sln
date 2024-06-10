@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reSmart", "reSmart.csproj", "{9EDDE2D8-BBA0-4DCA-BDDC-DB8B1CDCADE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EDDE2D8-BBA0-4DCA-BDDC-DB8B1CDCADE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDDE2D8-BBA0-4DCA-BDDC-DB8B1CDCADE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDDE2D8-BBA0-4DCA-BDDC-DB8B1CDCADE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDDE2D8-BBA0-4DCA-BDDC-DB8B1CDCADE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0967A7E4-414D-4EAE-92C3-966F6816978F}
+	EndGlobalSection
+EndGlobal
