@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.Data;
+using System.Runtime.CompilerServices;
 
 namespace reSmart.Models
 {
@@ -7,6 +7,7 @@ namespace reSmart.Models
     {
         [Key]
         public int IdUser { get; set; }
+
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Password { get; set; }
@@ -15,10 +16,11 @@ namespace reSmart.Models
 
         [ForeignKey("Role")]
         public int RoleId { get; set; }
-
         public Role Role { get; set; }
+
         public ICollection<Enrollment> Enrollments { get; set; }
         public ICollection<Review> Reviews { get; set; }
         public ICollection<UserTesting> UserTestings { get; set; }
+
     }
 }

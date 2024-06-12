@@ -6,10 +6,10 @@ namespace reSmart.Models
     {
         [Key]
         public int IdReview { get; set; }
+
         public string Comment { get; set; }
-        public double Rating { get; set; }
+        public int Rating { get; set; }
         public DateTime Date { get; set; }
-        public DateTime PostDate { get; set; }
 
         [ForeignKey("User")]
         public int UserId { get; set; }

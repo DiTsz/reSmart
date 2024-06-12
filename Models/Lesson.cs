@@ -9,12 +9,12 @@ namespace reSmart.Models
 
         [ForeignKey("Course")]
         public int CourseId { get; set; }
+        public Course Course { get; set; }
+
         public string Title { get; set; }
         public string Description { get; set; }
-        public string UrlLection { get; set; }
+        public string Url_Lection { get; set; }
 
-        public Course Course { get; set; }
         public ICollection<Content> Contents { get; set; }
     }
-
 }
